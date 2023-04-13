@@ -3,14 +3,9 @@
     padding: 0;
 }
 body{
-    background-color:  orange;
+    background-color: orange;
 }
-.left , .center,.right{
-    display: flex;
-    flex-flow: column;
-   
-  
-}
+
 .header{
     text-align: center;
     padding: 30px;
@@ -19,13 +14,15 @@ body{
     margin-bottom: 20px;
 }
 .person{
-display: block;
+    display: flex;
+    margin-left: 110px;
 width: 100%;
 }
 .Lady img{
+    
     padding: 20px;
-    height: 300px;
-    width: 20%;
+    height: 270px;
+    width: 70%;
 }
 .Lady h1{
         font-family: 'Arial Narrow Bold', sans-serif;
@@ -50,14 +47,12 @@ width: 100%;
     font-size: 30px;
     margin-bottom:12px ;
 }
-.Man{
-    align-items: center;
-}
+
 
 .Man img {
         padding-left: 20px;
         height: 300px;
-        width: 20%;
+        width: 70%;
 }
 .Man h1{
     font-family: 'Arial Narrow Bold', sans-serif;
@@ -84,9 +79,9 @@ width: 100%;
     margin-bottom: 15px;
 }
 .Lady2 img {
-        padding-left: 20px;
+        padding-left: 40px;
         height: 300px;
-        width: 20%;
+        width: 70%;
 }
 .Lady2 h1{
     font-family: 'Arial Narrow Bold', sans-serif;
@@ -110,4 +105,16 @@ width: 100%;
     margin-top:20px ;
     font-size: 30px;
     margin-bottom:12px
+}
+.person .left{
+    width: 30%;
+    float: left;
+}
+.person .center{
+    float: center;
+    width: 30%;
+}
+.person .right{
+    float: right;
+    width: 30%;
 }
