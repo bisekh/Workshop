@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: orange;
+}
+
+.header{
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px ;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.person{
+    display: flex;
+    margin-left: 110px;
+width: 100%;
+}
+.Lady img{
+    
+    padding: 20px;
+    height: 270px;
+    width: 70%;
+}
+.Lady h1{
+        font-family: 'Arial Narrow Bold', sans-serif;
+        font-size: larger;
+        margin-left: 65px;
+        padding: 8px;
+}
+.Lady p{
+    padding-left:95px ;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.Lady .p2{
+    padding-left:105px ;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    
+}
+.Lady h2{
+    margin-left: 70px;
+    margin-top:20px ;
+    font-size: 30px;
+    margin-bottom:12px ;
+}
+
+
+.Man img {
+        padding-left: 20px;
+        height: 300px;
+        width: 70%;
+}
+.Man h1{
+    font-family: 'Arial Narrow Bold', sans-serif;
+        font-size: larger;
+        margin-left: 80px;
+        padding: 2px;
+        margin-top: 12px;
+}
+.Man p{
+    padding-left:100px ;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.Man .p3{
+    padding-left:115px ;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.Man h2{
+    margin-left: 80px;
+    margin-top:20px ;
+    font-size: 30px;
+    margin-bottom:12px ;
+    margin-bottom: 15px;
+}
+.Lady2 img {
+        padding-left: 40px;
+        height: 300px;
+        width: 70%;
+}
+.Lady2 h1{
+    font-family: 'Arial Narrow Bold', sans-serif;
+        font-size: larger;
+        margin-left: 110px;
+        padding: 2px;
+        margin-top:12px
+}
+.Lady2 p{
+    padding-left:100px ;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.Lady2 .p4{
+    padding-left:78px ;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.Lady2 h2{
+    margin-left: 75px;
+    margin-top:20px ;
+    font-size: 30px;
+    margin-bottom:12px
+}
+.person .left{
+    width: 30%;
+    float: left;
+}
+.person .center{
+    float: center;
+    width: 30%;
+}
+.person .right{
+    float: right;
+    width: 30%;
+}
